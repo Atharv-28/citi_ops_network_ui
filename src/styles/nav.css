@@ -1,0 +1,39 @@
+.nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    justify-content: center;
+    height: 12vh;
+}
+.navcontainer{
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 5vw;
+    align-items: center;
+}
+.navelement{
+    display: flex;
+    justify-content: center;
+}
+.navtxt{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+.searchBar{
+    border-radius: 10px;
+    height: 6vh;
+    width: 40vw;
+}
+.profImg{
+    height: 6vh;
+    width: 6vh;
+}
